@@ -20,6 +20,6 @@ Key value pair description of each JSON object in the dataset from dataset descr
 ## Instructions to use the app
 
 - Clone the repo
-- Use the aws command line interface to run the command "aws configure", and then add AWS access key ID, AWS secret access key. Then run the command 'aws configure set aws_session_token "<token>"' and replace the <token> with the AWS session token. You can get the AWS access key ID, AWS secret access key and AWS session token from the access keys section of CPSC_436C_101_2024W1_G15 in aws access portal.
+- Use the aws command line interface to run the command "aws configure", and then add AWS access key ID, AWS secret access key. Then run the command 'aws configure set aws_session_token "\<token\>"' and replace the \<token\> with the AWS session token. You can get the AWS access key ID, AWS secret access key and AWS session token from the access keys section of CPSC_436C_101_2024W1_G15 in aws access portal.
 - Once the keys are set, cd into the ./MovieReviewer/backend/ directory, run 'npm install' to get the node modules (Make sure you have nodejs installed). Once, the node modules are downloaded, run npm start to start the backend
 - Once the backend is started, cd into ./MovieReviewer/frontend/vite-project directory and run 'npm install'. Then, run "npm run dev" to start the frontend server at http://localhost:5173/ . Once running, Click the link http://localhost:5173/ or paste in your browser, and the application will open and be ready to use.
