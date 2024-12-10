@@ -1,7 +1,8 @@
 # MovieReviewer
 Movie reviewer using Amazon Comprehend with lambda functions and S3 to store raw data. Results get stored into a database.
 
-We'll sample reviews from [this dataset of JSON files](https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset)].
+We'll sample reviews from [this dataset of JSON files](https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset).
+These sample reviews are splitted up and placed as S3 objects in a raw reviews bucket.
 
 Key value pair description of each JSON object in the dataset from dataset description:
 | Content        | Details                                                              |
